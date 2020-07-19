@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    
+    <!-- <link rel="stylesheet" href="Styles.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Styles1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;700&family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+    <title>Carlos Lima Portfolio Website</title>
+  </head>
+  <body>
+    <main>
+      <!-- ***********************  ABOUT / PROFILE  *********************** -->
+      <header>
+        <!--This section is to add a header to the profile with links to jump down to the correct sections
+        Start with a box spanning across the website.
+        Add name - left, sections - Middle, Contact link - end
+        -->
+        <!--*************************Nav-bar Start*********************************-->
+        <div class="nav-bar">
+          <div class="nav-container">
+          <div class="name">Carlos Lima</div>
+              <div class="nav-sections">
+                <ul>
+                  <li><a href ="#projects" class = "nav-links"> Featured Projects</a></li>
+                  <li><a href ="#work" class = "nav-links">Work Experience</a></li>
+                  <li><a href ="#edu" class = "nav-links">Education</a></li>
+                </ul>
+              </div>
+              <div class="contact">
+                <a href = "mailto:carlos021195@gmail.com">Contact Me</a>
+              </div>
+          </div>
+        </div>
+        <!--*************************Nav-bar END*********************************-->
+        <div class = "content_wrap">
+          <h1>Carlos Lima</h1>
+          <h2>Software Engineering Student</h2>
+
+          <p>Curently pursuing a Master's Degree in Software Engineering and working as a Buiness Data Analyst.
+            I am looking for new learning opportunities in the Computer Science field. I taught myself HTML, CSS, and JavaScript and continue to teach myself new things daily.
+             I also know Java and C++ programming languages and enjoy a good problem to solve.
+          </p>
+        </div>
+      </header>
+
+      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+      <section id = "projects" class="projects">
+        <div class = "content_wrap">
+        <h2>Featured Projects</h2>
+        <p>Below are a few personal projects I have worked on. For more information on any of these projects please feel free to <a class = "email-button" href = "mailto:carlos021195@gmail.com">email me</a></p>
+
+        <!-- Copy the whole <section> block to add more projects. -->
+        
+        <section class="project-item">
+          <img src="Images/podTemplate.PNG" alt="Code image">
+          <h3>Podcast Website</h3>
+          <p>This was a personal project for a Hackathon.<br>
+          The goal of the hackathon was to learn a new language and build anything you want. I built a podcast website
+          with links to all listening platforms and social media accounts. I also included a section for the hosts and
+          an episode slideshow where each image shows a description when you hover over and includes the audio for the
+         podcast episode. I also added a contact form that emails the form using php to the recipient when submitted.</p>
+          <a class = "button" href="http://carlosalima.com/podcastTemplate/" target="_blank">View Website</a>
+        </section>
+        <section class="project-item">
+          <img src="Images/click.PNG" alt="Code image">
+          <h3>Bill Splitter App</h3>
+          <p>This was a personal project to practice using JavaScript.<br>I built this bill splitter web app that allows the user to split multiple bills evenly or customize the split.
+            At the end of it, when the user decides to settle the bill, it outputs the directions on which users pay the other users and how much so that everyone pays the correct amount.
+            I used a linked list data structure where each node contains the username, total amount paid and total amount consumed. I also used local storage to store the data so that the browser can be closed and refreshed
+             without losing the data.
+          </p>
+          <a class = "button" href="http://carlosalima.com/clicktosplit/" target="_blank">View Website</a>
+        </section>
+        <section class="project-item">
+          <img src="Images/codeImg.jpg" alt="Code image">
+          <h3>Circular LL with Garbage Collector</h3>
+          <p>This project was for a Data Structures and Algorithms class.<br>
+          The goal of this project was to create a circular linked list data structure where each node would be an item
+          available at a bakery and empty nodes would be added to a stack to be reused.<br>Code is available upon request.</p>
+        </section>
+        <!-- End of Project block. -->
+      </div>
+      </section>
+
+      <!-- ***********************  WORK EXPERIENCE  *********************** -->
+      <section id = "work" class = "work">
+        <div class = "content_wrap item-details">
+        <h2>Work Experience</h2>
+        <p>Problem solver always eager to learn new things. 2+ years of experience as an analyst in fast paced environments.
+           Looking for new challenging and exciting opportunities to expand on my knowledge and grow in the Computer Science field.</p>
+
+        <!-- Copy this whole <section> block to add more jobs. -->
+        <section>
+          <h3>Business Data Analyst</h3>
+          <p>VS Media Inc.</p>
+          <p>November 2018 - Present</p>
+          <p>
+            <ul>
+              <li>Interpret data in order to draw conclusions for managerial action and strategy.</li>
+              <li>Used statistical methods to forecast and project transaction volume and several other business figures.</li>
+              <li>Use SQL, Tableau, and Excel to create reports and other visuals to present data to managers and executives.</li>
+            	<li>Optimize data collection procedures and reconcile database to make data collection more accurate and efficient.</li>
+            </ul>
+          </p>
+        </section>
+        <section>
+          <h3>Data Analyst</h3>
+          <p>CoTa Global</p>
+          <p>April 2018 - November 2018</p>
+          <p>
+            <ul>
+              <li>Analyze profitability of current products and discontinue unprofitable items.</li>
+              <li>Upload and advertise new products to online platforms and manage inventory and seller accounts.</li>
+              <li>Find products and analyze cost, profit margins, and shipping cost to check profitability and project monthly sales.</li>
+              <li>On-site Technical support.</li>
+            </ul>
+          </p>
+
+        </section>
+        <!-- End of Job block. -->
+      </div>
+      </section>
+
+      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+      <section id = "edu" class = "edu">
+        <div class = "content_wrap">
+        <h2>Education</h2>
+
+        <!-- Copy this whole <section> block to add more schools. -->
+        <section>
+          <h3>California State University Northridge</h3>
+          <p>M.S. Software Engineering</p>
+          <p>Expected Completion: May 2022</p>
+        </section>
+        <section>
+          <h3>University of Southern California</h3>
+          <p>B.S. Applied Mathematics</p>
+          <p>Year Completed: 2017</p>
+        </section>
+        <!-- End of School block. -->
+      </div>
+      </section>
+
+      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <footer>
+        <div class = "content_wrap">
+        <h2>Let's Keep in Touch!</h2>
+
+        <!-- Social media and contact links. Add or remove any networks. -->
+        <ul class = "contact-list">
+          <li><a href="mailto:carlos021195@gmail.com">carlos021195@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/carlos-lima0211/" target="_blank">Linked In</a></li>
+          <li><a href="https://my.indeed.com/p/carlosl-k15zrp6" target="_blank">Indeed</a></li>
+        </ul>
+      </div>
+      </footer>
+    </main>
+  </body>
+</html>
