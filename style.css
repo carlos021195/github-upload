@@ -164,4 +164,13 @@ footer ul{
     p{
         font-weight: 600;
     }
+    .project-img-container{
+        display: flex;
+        justify-content: center;
+    }
+    .project-button{
+        display:flex;
+        justify-content: center;
+        margin:2px;
+    }
 }
