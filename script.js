@@ -1,3 +1,4 @@
+window.onscroll = function(){clearMenu()};
 function menu(){
     $('#menu').toggleClass("hide-menu");
 }
